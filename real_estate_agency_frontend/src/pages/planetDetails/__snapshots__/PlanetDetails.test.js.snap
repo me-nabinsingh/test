@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlanetDetails /> renders with planet details crashing 1`] = `
+<PlanetDetails
+  match={
+    Object {
+      "params": Object {
+        "id": "5c0c45dbdeaeb2fb0193728f",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<PlanetDetails /> renders without crashing 1`] = `<PlanetDetails />`;

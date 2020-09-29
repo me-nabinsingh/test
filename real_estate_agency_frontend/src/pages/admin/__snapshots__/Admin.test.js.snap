@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Admin /> renders without crashing 1`] = `
+<div>
+  <nav
+    className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow"
+  >
+    <div
+      className="mx-5 my-2"
+    >
+      <a
+        className="py-2"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          height={50}
+          src="logo.svg"
+          width={50}
+        />
+      </a>
+    </div>
+    <ul
+      className="navbar-nav px-3"
+    >
+      <li
+        className="nav-item text-nowrap"
+      >
+        <a
+          className="nav-link"
+          href="/auth/login"
+          onClick={[Function]}
+        >
+          Sign out
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="row"
+    >
+      <nav
+        className="col-md-2 d-none d-md-block bg-light sidebar"
+      >
+        <div
+          className="sidebar-sticky  mt-5"
+        >
+          <ul
+            className="nav flex-column py-2"
+          >
+            <li
+              className="nav-item"
+            >
+              <a
+                className="nav-link"
+                href="/admin/"
+                onClick={[Function]}
+              >
+                Dashboard
+              </a>
+            </li>
+            <li
+              className="nav-item"
+            >
+              <a
+                className="nav-link"
+                href="/admin/banners"
+                onClick={[Function]}
+              >
+                Banners
+              </a>
+            </li>
+            <li
+              className="nav-item"
+            >
+              <a
+                className="nav-link"
+                href="/admin/planets"
+                onClick={[Function]}
+              >
+                Planets
+              </a>
+            </li>
+            <li
+              className="nav-item"
+            >
+              <a
+                className="nav-link"
+                href="/admin/images"
+                onClick={[Function]}
+              >
+                Images
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main
+        className="col-md-9 ml-sm-auto col-lg-10 px-4 py-2 mt-5"
+        role="main"
+      />
+    </div>
+  </div>
+</div>
+`;

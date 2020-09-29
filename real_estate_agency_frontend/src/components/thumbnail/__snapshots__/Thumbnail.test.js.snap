@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Thumbnail /> doesn't break if images object is not passed 1`] = `null`;
+
+exports[`<Thumbnail /> renders without crashing 1`] = `
+<div
+  className="thumbnail"
+  style={
+    Object {
+      "backgroundImage": "url(https://s3.us-east-2.amazonaws.com/nod.realestateagency/15442744174651200px-Mercury_in_color_-_Prockter07-edit1.jpg)",
+    }
+  }
+>
+   
+</div>
+`;

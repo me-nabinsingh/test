@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> renders without crashing 1`] = `
+<nav
+  className="col-md-2 d-none d-md-block bg-light sidebar"
+>
+  <div
+    className="sidebar-sticky  mt-5"
+  >
+    <ul
+      className="nav flex-column py-2"
+    >
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-link"
+          href="/admin/"
+          onClick={[Function]}
+        >
+          Dashboard
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-link"
+          href="/admin/banners"
+          onClick={[Function]}
+        >
+          Banners
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-link"
+          href="/admin/planets"
+          onClick={[Function]}
+        >
+          Planets
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-link"
+          href="/admin/images"
+          onClick={[Function]}
+        >
+          Images
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

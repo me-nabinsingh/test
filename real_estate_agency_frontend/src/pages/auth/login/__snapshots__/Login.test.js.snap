@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> renders without crashing 1`] = `
+<form
+  className="form-signin text-center"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="my-5"
+  >
+    <a
+      className="py-2"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        height={50}
+        src="logo.svg"
+        width={50}
+      />
+    </a>
+  </div>
+  <h1
+    className="h3 mb-3 font-weight-normal"
+  >
+    Admin Log In
+  </h1>
+  <label
+    className="sr-only"
+    htmlFor="inputEmail"
+  >
+    Email address
+  </label>
+  <input
+    className="form-control"
+    name="email"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <label
+    className="sr-only"
+    htmlFor="inputPassword"
+  >
+    Password
+  </label>
+  <input
+    className="form-control"
+    name="password"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="password"
+    value=""
+  />
+  <button
+    className="btn btn-lg btn-primary btn-block"
+    disabled={false}
+    type="submit"
+  >
+    Submit
+  </button>
+  <div
+    className="mt-3"
+  >
+    <a
+      href="/auth/register"
+      onClick={[Function]}
+    >
+      Register
+    </a>
+  </div>
+</form>
+`;

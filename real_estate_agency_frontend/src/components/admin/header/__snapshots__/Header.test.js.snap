@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders without crashing 1`] = `
+<nav
+  className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow"
+>
+  <div
+    className="mx-5 my-2"
+  >
+    <a
+      className="py-2"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        height={50}
+        src="logo.svg"
+        width={50}
+      />
+    </a>
+  </div>
+  <ul
+    className="navbar-nav px-3"
+  >
+    <li
+      className="nav-item text-nowrap"
+    >
+      <a
+        className="nav-link"
+        href="/auth/login"
+        onClick={[Function]}
+      >
+        Sign out
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

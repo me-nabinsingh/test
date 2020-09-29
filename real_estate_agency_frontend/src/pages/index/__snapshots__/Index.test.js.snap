@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Index /> renders if banner and planets are not set 1`] = `
+<div>
+  <Banner
+    banner={null}
+  />
+  <div
+    className="pb-5 text-center bg-light"
+  >
+    <Link
+      className="btn btn-outline-secondary"
+      replace={false}
+      to="/planets"
+    >
+      View all planets
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<Index /> renders if boty banner and planets values are set 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Index>
+    <div>
+      <Banner
+        banner={null}
+      />
+      <div
+        className="pb-5 text-center bg-light"
+      >
+        <Link
+          className="btn btn-outline-secondary"
+          replace={false}
+          to="/planets"
+        >
+          <a
+            className="btn btn-outline-secondary"
+            href="/planets"
+            onClick={[Function]}
+          >
+            View all planets
+          </a>
+        </Link>
+      </div>
+    </div>
+  </Index>
+</Router>
+`;
+
+exports[`<Index /> renders when banner value is set 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Index>
+    <div>
+      <Banner
+        banner={null}
+      />
+      <div
+        className="pb-5 text-center bg-light"
+      >
+        <Link
+          className="btn btn-outline-secondary"
+          replace={false}
+          to="/planets"
+        >
+          <a
+            className="btn btn-outline-secondary"
+            href="/planets"
+            onClick={[Function]}
+          >
+            View all planets
+          </a>
+        </Link>
+      </div>
+    </div>
+  </Index>
+</Router>
+`;
+
+exports[`<Index /> renders when planets value is set 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Index>
+    <div>
+      <Banner
+        banner={null}
+      />
+      <div
+        className="pb-5 text-center bg-light"
+      >
+        <Link
+          className="btn btn-outline-secondary"
+          replace={false}
+          to="/planets"
+        >
+          <a
+            className="btn btn-outline-secondary"
+            href="/planets"
+            onClick={[Function]}
+          >
+            View all planets
+          </a>
+        </Link>
+      </div>
+    </div>
+  </Index>
+</Router>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders without crashing 1`] = `
+<nav
+  className="site-header sticky-top py-1"
+>
+  <div
+    className="container d-flex flex-column flex-md-row justify-content-between"
+  >
+    <a
+      className="py-2"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        height={30}
+        src="logo.svg"
+        width={30}
+      />
+    </a>
+    <a
+      className="py-2 d-none d-md-inline-block"
+      href="/admin/login"
+      onClick={[Function]}
+    >
+      Admin
+    </a>
+  </div>
+</nav>
+`;

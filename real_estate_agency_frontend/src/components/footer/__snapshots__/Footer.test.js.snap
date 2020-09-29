@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders without crashing 1`] = `
+<footer
+  className="container py-5"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-md text-center"
+    >
+      © Copyright 2018 All rights reserved.
+    </div>
+  </div>
+</footer>
+`;
